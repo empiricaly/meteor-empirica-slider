@@ -1,6 +1,6 @@
 Package.describe({
   name: "empirica:slider",
-  version: "0.0.1",
+  version: "0.0.2",
   summary: "A configurable slider suitable for running Empirica experiments.",
   git: "https://github.com/empiricaly/meteor-empirica-slider.git",
   documentation: "README.md"
