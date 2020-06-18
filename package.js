@@ -1,6 +1,6 @@
 Package.describe({
   name: "empirica:slider",
-  version: "0.0.2",
+  version: "0.0.3",
   summary: "A configurable slider suitable for running Empirica experiments.",
   git: "https://github.com/empiricaly/meteor-empirica-slider.git",
   documentation: "README.md"
@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom("1.7.0.5");
-  api.use(["less", "ecmascript"]);
+  api.use(["less@3.0.1", "ecmascript"]);
   api.addFiles("slider.less", "client");
   api.mainModule("slider.js");
 });
